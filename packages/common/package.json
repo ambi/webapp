@@ -1,0 +1,23 @@
+{
+  "name": "common",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "./dist/common.js",
+  "types": "./dist/common.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "vitest run"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.10.5",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.3.3",
+    "vitest": "^1.1.0"
+  },
+  "dependencies": {
+  }
+}

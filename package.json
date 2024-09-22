@@ -1,0 +1,22 @@
+{
+  "name": "webapp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "lint": "biome check .",
+    "fmt": "biome format . --write && biome check . --write",
+    "fmt:unsafe": "biome format . --write && biome check . --write --unsafe"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "engines": {
+    "node": ">=22.0.0"
+  },
+  "type": "module",
+  "packageManager": "pnpm@9.11.0",
+  "devDependencies": {
+    "@biomejs/biome": "^1.9.2"
+  }
+}
